@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Products</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">3irq — Product Manager</a>
+    <nav>
+      <a href="index.html">Products</a>
+      <a class="btn" href="product_form.html">+ New Product</a>
+      <span class="spacer"></span>
+      <a class="link" href="login.html">Login</a>
+      <a class="btn ghost" href="signup.html">Sign up</a>
+    </nav>
+  </div>
+</header>
+
+
+  <main class="container">
+    <h1>Products</h1>
+
+    <div class="table-wrap">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th><th>Category</th><th>Price</th><th>Stock</th><th class="right">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a class="row-link" href="product_detail.html">“Atlas” Tee</a></td>
+            <td>T-Shirts</td>
+            <td>$25.00</td>
+            <td>42</td>
+            <td class="actions right">
+              <a class="btn" href="product_form.html">Edit</a>
+              <a class="btn danger" href="product_delete.html">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><a class="row-link" href="product_detail.html">“Dune” Hoodie</a></td>
+            <td>Hoodies</td>
+            <td>$59.00</td>
+            <td>12</td>
+            <td class="actions right">
+              <a class="btn" href="product_form.html">Edit</a>
+              <a class="btn danger" href="product_delete.html">Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 3irq</div>
+  </footer>
+</body>
+</html>
